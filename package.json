@@ -1,10 +1,10 @@
 {
-  "name": "ayusummer-dailyNotes",
-  "description": "233 daily notes",
-  "author": "233",
+  "name": "my-blog",
+  "description": "The blog of PoDongMaoYi",
+  "author": "PoDongMaoYi",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Ayusummer/DailyNotes.git"
+    "url": "https://github.com/PoDongMaoYi/MyBlog.git"
   },
   "license": "MIT",
   "private": true,
