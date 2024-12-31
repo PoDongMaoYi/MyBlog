@@ -1,14 +1,13 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import { Navbar } from "./navbar";
 import { Sidebar } from "./sidebar";
-import { sitemap } from "vuepress-theme-hope";
 
 export default hopeTheme({
-  hostname: "https://233official.github.io/dailynotes/",
+  hostname: "https://podongmaoyi.github.io/MyBlog/",
 
   author: {
-    name: "233",
-    url: "https://233official.github.io/dailynotes/",
+    name: "PoDongMaoYi",
+    url: "https://podongmaoyi.github.io/MyBlog/",
   },
 
   favicon: "/favicon.ico",
@@ -30,9 +29,9 @@ export default hopeTheme({
 
 
   // 仓库链接
-  repo: "233Official/dailynotes",
+  repo: "PoDongMaoYi/MyBlog",
   // 文档仓库地址，默认同主题选项中的 repo
-  docsRepo: "233Official/dailynotes",
+  docsRepo: "PoDongMaoYi/MyBlog",
   // 文档在仓库中的目录，默认为根目录
   docsDir: "docs",
   // 文档存放的分值，默认为 "main"
@@ -67,14 +66,14 @@ export default hopeTheme({
     seo: true,
     // slimsearch: true,
     sitemap: {
-      devHostname: "https://233official.github.io/",
-      hostname: "https://233official.github.io/",
+      devHostname: "https://podongmaoyi.github.io/",
+      hostname: "https://podongmaoyi.github.io/",
     },
     feed: {
       rss: true,
       atom: true,
       json: true,
-      hostname: "https://233official.github.io/",
+      hostname: "https://podongmaoyi.github.io/",
     },
   },
 });

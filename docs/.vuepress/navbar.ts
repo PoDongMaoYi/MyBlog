@@ -30,9 +30,23 @@ let general = {
     },
   ],
 };
-
+/** 部署 */
+let deploy = {
+  text: "部署",
+  children: [
+    {
+      text: "MYBlog",
+      link: "/部署/MYBlog.md",
+    },
+    {
+      text: "Linux",
+      link: "/部署/Linux/",
+    },
+  ],
+};
 
 export const Navbar = navbar([
   NoteTools, // 笔记工具
   general, // 通识
+  deploy, // 部署
 ]);

@@ -1,4 +1,6 @@
 node_modules
+.temp
+.cache
 docs/.vuepress/.cache/deps/_metadata.json
 docs/.vuepress/.cache/deps/@vue_devtools-api.js
 docs/.vuepress/.cache/deps/@vue_devtools-api.js.map
